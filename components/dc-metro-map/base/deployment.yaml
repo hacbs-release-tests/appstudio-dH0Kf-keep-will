@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:dH0Kf-dc-metro-map
+      - image: quay.io/redhat-appstudio/user-workload@sha256:30ec723b00d406a5bf656ef300fb54255b24e49bddf8470c728e5fd4a302d998
         imagePullPolicy: Always
         name: container-image
         resources:
